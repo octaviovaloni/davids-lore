@@ -16,7 +16,7 @@ public class ModItemGroups {
     public static final ItemGroup DAVID_LORE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of("david_lore_items"),
             FabricItemGroup.builder()
-                    //.icon(() -> new ItemStack(ModItems.DAVID_ORE))
+                    .icon(() -> new ItemStack(ModItems.DAVID_ORE))
                     .displayName(Text.translatable("itemgroup."  + DavidsLore.MOD_ID + ".david_lore_items"))
                     .entries((displayContext, entries) -> {
                         // Adds every item saved in ItemsList to the item group

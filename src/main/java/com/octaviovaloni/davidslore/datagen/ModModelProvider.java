@@ -1,6 +1,7 @@
 package com.octaviovaloni.davidslore.datagen;
 
 import com.octaviovaloni.davidslore.block.ModBlocks;
+import com.octaviovaloni.davidslore.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -19,6 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        //itemModelGenerator.register(ModItems.ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DAVID_ORE, Models.GENERATED);
     }
 }
