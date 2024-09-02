@@ -12,7 +12,10 @@ import java.util.ArrayList;
 
 public class ModBlocks {
     public static ArrayList<BlockItem> BlockItemsList = new ArrayList<>();
+
     public static final Block QUANTUM_Q20_BLOCK = registerBlock("quantum_q20_block", new QuantumQ20Block());
+    public static final Block DAVID_ORE_BLOCK = registerBlock("david_ore_block", new DavidOreBlock());
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(DavidsLore.MOD_ID, name), block);

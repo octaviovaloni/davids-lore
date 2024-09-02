@@ -29,7 +29,7 @@ public class ModItemGroups {
     public static final ItemGroup DAVID_LORE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of("david_lore_blocks"),
             FabricItemGroup.builder()
-                    //.icon(() -> new ItemStack(ModBlocks.QUANTUM_Q20_BLOCK.asItem()))
+                    .icon(() -> new ItemStack(ModBlocks.QUANTUM_Q20_BLOCK.asItem()))
                     .displayName(Text.translatable("itemgroup."+ DavidsLore.MOD_ID +".david_lore_blocks"))
                     .entries((displayContext, entries) -> {
                         // Adds every BlockItem saved in BlockItemsList to the item group

@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.QUANTUM_Q20_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DAVID_ORE_BLOCK);
     }
 
     @Override
