@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class ModItems {
     public static ArrayList<Item> ItemsList = new ArrayList<>();
     public static final Item DAVID_ORE = registerItem("david_ore", new DavidOre());
+    public static final Item QUANTUM_Q20 = registerItem("quantum_q20", new QuantumQ20());
 
     public static Item registerItem(String name, Item item) {
         Identifier itemID = Identifier.of(DavidsLore.MOD_ID, name);

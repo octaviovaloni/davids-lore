@@ -1,5 +1,6 @@
 package com.octaviovaloni.davidslore.datagen;
 
+import com.octaviovaloni.davidslore.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.AbstractBlock;
@@ -20,13 +21,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-        //offerSmelting(exporter,
-                //List.of(test, new Block(AbstractBlock.Settings.create())),
-                //RecipeCategory.MISC,
-                //ModItems.ITEM_DROP,
-                //0.7f, // Experience
-                //200, // Cook Time
-                //"test"); // Group name
+
+        // Quantum Q20
+        offerSmelting(exporter,
+                List.of(ModItems.DAVID_ORE),
+                RecipeCategory.MISC,
+                ModItems.QUANTUM_Q20,
+                0.7f, // Experience
+                200, // Cook Time
+                "quantum_q20"); // Group name
+        offerBlasting(exporter,
+                List.of(ModItems.DAVID_ORE),
+                RecipeCategory.MISC,
+                ModItems.QUANTUM_Q20,
+                0.7f, // Experience
+                100, // Cook Time
+                "quantum_q20"); // Group name
 
     }
 }

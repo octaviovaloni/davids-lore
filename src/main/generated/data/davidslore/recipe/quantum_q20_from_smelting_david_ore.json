@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "quantum_q20",
+  "ingredient": {
+    "item": "davidslore:david_ore"
+  },
+  "result": {
+    "id": "davidslore:quantum_q20"
+  }
+}

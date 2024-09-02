@@ -21,5 +21,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.DAVID_ORE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.QUANTUM_Q20, Models.GENERATED);
     }
 }
