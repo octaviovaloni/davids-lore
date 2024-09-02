@@ -1,3 +1,6 @@
-// 1.21.1	2024-09-02T00:05:32.3522561	David´s Lore/Model Definitions
-955d651f8a39bc550981eb3aa763e454f3842763 assets\davidslore\models\item\david_ore.json
+// 1.21.1	2024-09-02T00:28:40.0036703	David´s Lore/Model Definitions
+40ca86bb5dd58dbddfc5ccaa31c6edcf1ee66cdf assets\davidslore\models\item\quantum_q20_block.json
+61d00ccc07a0bbf1665f0bb10328736ad395c696 assets\davidslore\blockstates\quantum_q20_block.json
 4a72c5b7d3244f0a73db5335bbc73dc8b5dc4b4e assets\davidslore\models\item\quantum_q20.json
+955d651f8a39bc550981eb3aa763e454f3842763 assets\davidslore\models\item\david_ore.json
+6e20c8036f308edd80b5bd72e00aff6877f41fe5 assets\davidslore\models\block\quantum_q20_block.json

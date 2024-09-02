@@ -1,5 +1,9 @@
-// 1.21.1	2024-09-02T00:05:32.3432579	David´s Lore/Recipes
+// 1.21.1	2024-09-02T00:28:39.9986759	David´s Lore/Recipes
 acf6aba3ca1fe58e57084836b8eb2f0b61a3ab67 data\davidslore\advancement\recipes\misc\quantum_q20_from_smelting_david_ore.json
+b9986729b69bcc0bc9d5498a31cef9e7b20a206c data\davidslore\advancement\recipes\decorations\quantum_q20.json
 6d01d1bf49e11389ffd2b8959338f95ada3ecc3b data\davidslore\advancement\recipes\misc\quantum_q20_from_blasting_david_ore.json
+202a9804a3326870bcd107ce3db59dd4de9e54e4 data\davidslore\recipe\quantum_q20.json
+81537996768646452adb99b262936a7fed7cd920 data\davidslore\advancement\recipes\building_blocks\quantum_q20_block.json
+3e80c07c006944e4cd5465824d64aab22a3e536a data\davidslore\recipe\quantum_q20_block.json
 cfd8b03147877fdbe2854c621db495dbbea494f6 data\davidslore\recipe\quantum_q20_from_smelting_david_ore.json
 38b84c7868b3b265a66be18cf033c958859ac80f data\davidslore\recipe\quantum_q20_from_blasting_david_ore.json

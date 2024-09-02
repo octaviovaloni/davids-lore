@@ -18,12 +18,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         // Pickaxe Mineable
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.QUANTUM_Q20_BLOCK);
 
         // Needs diamond/iron/stone tool setter
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.QUANTUM_Q20_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL);
 

@@ -1,5 +1,6 @@
 package com.octaviovaloni.davidslore.datagen;
 
+import com.octaviovaloni.davidslore.block.ModBlocks;
 import com.octaviovaloni.davidslore.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -37,6 +38,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 0.7f, // Experience
                 100, // Cook Time
                 "quantum_q20"); // Group name
+
+        // Quantum Q20 Block
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.DECORATIONS, ModItems.QUANTUM_Q20, RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUANTUM_Q20_BLOCK);
 
     }
 }

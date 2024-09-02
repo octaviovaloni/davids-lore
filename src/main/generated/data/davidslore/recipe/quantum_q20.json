@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "davidslore:quantum_q20_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "davidslore:quantum_q20"
+  }
+}

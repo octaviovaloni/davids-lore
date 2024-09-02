@@ -15,7 +15,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        //addDrop(ModBlocks.BLOCK);
+        addDrop(ModBlocks.QUANTUM_Q20_BLOCK);
 
         //addDrop(ModBlocks.BLOCK, oreDrops(ModItems.WITH_SILK_TOUCH, ModItems.NO_SILK_TOUCH));
     }
