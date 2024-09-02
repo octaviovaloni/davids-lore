@@ -1,0 +1,15 @@
+{
+  "itemgroup.davidslore.david_lore_items": "David's Lore Items",
+  "itemgroup.davidslore.david_lore_blocks": "David's Lore Blocks",
+
+  "item.davidslore.david_ore": "David Ore",
+  "item.davidslore.quantum_q20": "Quantum Q20",
+  "item.davidslore.quantum_q20_block": "Quantum Q20 Block",
+  "item.davidslore.david_ore_block": "David Ore Block",
+
+  "block.davidslore.quantum_q20_block": "Quantum Q20 Block",
+  "block.davidslore.david_ore_block": "David Ore Block",
+
+  "itemTooltip.davidslore.david_ore": "Ore used to make Quantum Q20s",
+  "itemTooltip.davidslore.quantum_q20": "David's phone, used to create items"
+}
